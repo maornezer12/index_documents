@@ -89,7 +89,7 @@ This modular Python application is organized into focused modules:
 - **`utils/io_utils.py`** - File I/O (PDF/DOCX reading, text normalization)
 - **`utils/cli_utils.py`** - Command-line interface parsing
 - **`utils/embeddings_utils.py`** - Embedding generation (Gemini API)
-- **`utils/db_utils.py`** - PostgreSQL operations
+- **`utils/db_utils.py`** - operations
 - **`utils/errors_utils.py`** - Error handling and user-friendly messages
 
 ### Default Configuration
@@ -161,8 +161,8 @@ If you see a version number (e.g., `psql (PostgreSQL) 15.3`), PostgreSQL is alre
 
 **Mac (using Homebrew):**
 ```bash
-brew install postgresql@15
-brew services start postgresql@15
+brew install postgresql@17
+brew services start postgresql@17
 ```
 
 **Linux (Ubuntu/Debian):**
